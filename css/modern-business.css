@@ -1,0 +1,540 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+
+.toggleBox {
+  position: relative;
+  border: 1px solid #ddd;
+}
+
+/* Ausblenden des input-Feldes */
+.toggleBox input {
+  position: absolute;
+  left: -99999px;
+}
+
+/* Gestaltung der labels */
+.toggleBox label {
+  display: block;
+  background: #68B022;
+  color: #fff;
+  padding: .4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.toggleBox label:hover {
+  background: #ddd;
+}
+
+/* Der Aufklappmechanismus */
+
+.toggleBox input:not(:checked) ~ div {
+  opacity: 0;
+  height: 0;
+}
+
+.toggleBox input:checked ~ div {
+  opacity: 1;
+  padding: .8em;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Steuerung der Sichtbarkeit der labels */
+.toggleBox input:not(:checked) ~ .close,
+.toggleBox input:checked ~ .open {
+  display: none;
+}
+
+/*                            */
+
+
+#toggleBox input:not(:checked) ~ div {
+  opacity: 0;
+  height: 0;
+}
+
+#toggleBox input:checked ~ div {
+  opacity: 1;
+  padding: .8em;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Steuerung der Sichtbarkeit der labels */
+.toggleBox input:not(:checked) ~ .close,
+.toggleBox input:checked ~ .open {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.toggleBox2 {
+  position: relative;
+  border: 1px solid #ddd;
+}
+
+/* Ausblenden des input-Feldes */
+.toggleBox2 input {
+  position: absolute;
+  left: -99999px;
+}
+
+/* Gestaltung der labels */
+.toggleBox2 label {
+  display: block;
+  background: rgb(15, 83, 230);
+  color: #fff;
+  padding: .4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.toggleBox2 label:hover {
+  background: #ddd;
+}
+
+/* Der Aufklappmechanismus */
+
+.toggleBox2 input:not(:checked) ~ div {
+  opacity: 0;
+  height: 0;
+}
+
+.toggleBox2 input:checked ~ div {
+  opacity: 1;
+  padding: .8em;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Steuerung der Sichtbarkeit der labels */
+.toggleBox2 input:not(:checked) ~ .close,
+.toggleBox2 input:checked ~ .open {
+  display: none;
+}
+
+/*                            */
+
+
+#toggleBox2 input:not(:checked) ~ div {
+  opacity: 0;
+  height: 0;
+}
+
+#toggleBox2 input:checked ~ div {
+  opacity: 1;
+  padding: .8em;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Steuerung der Sichtbarkeit der labels */
+.toggleBox2 input:not(:checked) ~ .close,
+.toggleBox2 input:checked ~ .open {
+  display: none;
+}
+input#value1 {
+  position: inherit;
+}
+input#imgload {
+  position: inherit;
+}
+input#value2 {
+  position: inherit;
+}
+input#value3 {
+  position: inherit;
+}
+input#value33 {
+  position: inherit;
+}
+input#value4 {
+  position: inherit;
+}
+input#value5 {
+  position: inherit;
+}
+input#value6 {
+  position: inherit;
+}
+input#value7 {
+  position: inherit;
+}
+input#value8 {
+  position: inherit;
+}
+input#value9 {
+  position: inherit;
+}
+
+
+button#addjob {
+  margin-top: 5%;
+}
+
+span#f {
+  margin-top: 5%;
+}
+
+
+div#jobs {
+  opacity: 1;
+  height: 20%;
+  width: 100%;
+}
+
+
+div#hobbys {
+  opacity: 1;
+  height: 20%;
+  width: 100%;
+}
+
+
+div#ken {
+  opacity: 1;
+  height: 20%;
+  width: 100%;
+}
+
+
+div#school {
+  opacity: 1;
+  height: 20%;
+  width: 100%;
+}
+
+#lebenslauf span {
+  width: 50px;
+  display: block;
+}
+
+
+button#final {
+  margin-top: 3%;
+  background-color: lawngreen;
+  color: mediumblue;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+
+#cb {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+input#job0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#job1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#job2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#job3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+input#from0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#from1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#from2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#from3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+input#to0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#to1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#to2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#to3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+
+input#action0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#action1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#action2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#action3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input#school0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#school1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#school2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#school3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+input#froms0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#froms1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#froms2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#froms3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+input#tos0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#tos1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#tos2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#tos3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+
+input#actions0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#actions1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#actions2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#actions3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+input#ken0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#ken1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#ken2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#ken3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+
+input#actionk0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#actionk1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#actionk2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#actionk3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+input#hob0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#hob1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#hob2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#hob3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+
+input#actionh0 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#actionh1 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+input#actionh2 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+input#actionh3 {
+  position: inherit;
+  margin-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
